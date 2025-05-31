@@ -27,7 +27,6 @@ export const Card = (props: CardPropsType) => {
             <p className="description">
                 {description}{" "}
                 <a className="learn-more animated" href={link} target="_blank" rel="noreferrer"
-                   name={t("_accessibility:buttons.learnMore")}
                    aria-label={t("_accessibility:ariaLabels.learnMore")}>
                     {t("_accessibility:buttons.learnMore")}
                     {" "}→
