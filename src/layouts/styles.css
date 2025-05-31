@@ -1,0 +1,5 @@
+@import "../css/variables.css";
+
+main {
+    @apply p-20 w-full flex flex-col gap-5
+}
