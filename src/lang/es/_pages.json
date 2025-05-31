@@ -2,6 +2,9 @@
   "app": {
     "name": "Lo que está en meta"
   },
+  "footer": {
+    "copyright": "METATCH AI ©"
+  },
   "home": {
     "title": "Lo que está en meta en la IA",
     "subtitle": "Modelos, herramientas y técnicas dominantes en el ecosistema de inteligencia artificial.",
