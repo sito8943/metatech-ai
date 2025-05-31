@@ -1,19 +1,26 @@
 import {BrowserRouter, Route, Routes} from "react-router";
+import loadable from "@loadable/component"
 
 // layouts
 import {View} from "./layouts";
+import {Suspense} from "react";
+
+// components
+import {SplashScreen} from "./components";
 
 // views
-import {Home} from "./views/Home.tsx";
+const Home = loadable(() => import("./views/Home"))
 
 export const App = () => {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="" element={<View/>}>
-                    <Route index element={<Home/>}/>
-                </Route>
-            </Routes>
-        </BrowserRouter>
+        <Suspense fallback={<SplashScreen/>}>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="" element={<View/>}>
+                        <Route index element={<Home/>}/>
+                    </Route>
+                </Routes>
+            </BrowserRouter>
+        </Suspense>
     );
 };

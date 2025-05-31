@@ -27,10 +27,13 @@
     "react-dom": "^19.0.0",
     "react-i18next": "^15.5.2",
     "react-router": "^7.6.1",
+    "some-javascript-utils": "^0.10.6",
     "tailwindcss": "^4.1.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
+    "@loadable/component": "^5.16.7",
+    "@types/loadable__component": "^5.13.9",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react-swc": "^3.5.0",
