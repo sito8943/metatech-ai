@@ -10,6 +10,9 @@ import {App} from './App.tsx'
 // i18n
 import "./i18n.ts"
 
+// font
+import '@fontsource-variable/inter';
+
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
         <App/>
