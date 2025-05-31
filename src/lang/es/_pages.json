@@ -1,18 +1,22 @@
 {
   "app": {
-    "name": "Lo que está en meta"
+    "name": "Lo que está en el meta"
   },
   "footer": {
-    "copyright": "METATCH AI ©"
+    "copyright": "Lo que está en el META ©"
   },
   "home": {
-    "title": "Lo que está en meta en la IA",
+    "title": "Lo que está en el META de la IA",
     "subtitle": "Modelos, herramientas y técnicas dominantes en el ecosistema de inteligencia artificial.",
-    "categories": {
-      "models": "Modelos",
-      "tools": "Herramientas",
-      "technique": "Técnicas",
-      "coming": "Lo que se avecina"
+    "coming": {
+      "title": "¿Lo que se avecina?",
+      "body": "Sé el primero en conocer las tendencias tecnológicas que están por llegar. Estamos preparando nuevas secciones como modelos open-source, agentes, nuevos stacks y más.",
+      "newsletter": {
+        "input": {
+          "placeholder": "tu@email.com"
+        },
+        "disclaimer": "Te enviaremos sólo lo importante. Sin spam."
+      }
     }
   }
 }

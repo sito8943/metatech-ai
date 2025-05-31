@@ -1,1 +1,12 @@
-{}
+{
+  "buttons": {
+    "learnMore": "Learn more",
+    "whatsComingNext": "What's coming next",
+    "subscribe": "Subscribe"
+  },
+  "ariaLabels": {
+    "learnMore": "Click to learn more about this trend",
+    "whatsComingNext": "Click to see what's coming next in the world of AI",
+    "subscribe": "Click to subscribe and receive updates"
+  }
+}

@@ -1,5 +1,12 @@
 {
   "buttons": {
-    "learnMore": "Saber más"
+    "learnMore": "Saber más",
+    "whatsComingNext": "Lo que se avecina",
+    "subscribe": "Subscribirme"
+  },
+  "ariaLabels": {
+    "learnMore": "Haz clic para saber más sobre esta tendencia",
+    "whatsComingNext": "Haz clic para ver lo que se avecina en el mundo de la IA",
+    "subscribe": "Haz clic para suscribirte y recibir actualizaciones"
   }
 }

@@ -1,11 +1,22 @@
 {
+  "app": {
+    "name": "What's in Meta"
+  },
+  "footer": {
+    "copyright": "What's in META ©"
+  },
   "home": {
-    "title": "What’s META in AI",
-    "categories": {
-      "models": "Models",
-      "tools": "Tools",
-      "technique": "Technique",
-      "coming": "Coming"
+    "title": "What's in the AI META",
+    "subtitle": "Leading models, tools, and techniques in the artificial intelligence ecosystem.",
+    "coming": {
+      "title": "What's coming next?",
+      "body": "Be the first to know about upcoming tech trends. We're preparing new sections like open-source models, agents, new stacks, and more.",
+      "newsletter": {
+        "input": {
+          "placeholder": "your@email.com"
+        },
+        "disclaimer": "We'll only send you the important stuff. No spam."
+      }
     }
   }
 }
