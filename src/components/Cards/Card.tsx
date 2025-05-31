@@ -36,7 +36,7 @@ export const Card = (props: CardPropsType) => {
             <ul className="tags">
                 {tags?.map((tag) =>
                     <li key={tag}>
-                        <LinkChip href={`#${tag}`} text={tag}/>
+                        <LinkChip href={`#${tag}`} text={tag} name={tag} aria-label={tag}/>
                     </li>)}
             </ul>
 
