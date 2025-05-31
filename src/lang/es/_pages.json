@@ -1,0 +1,12 @@
+{
+  "home": {
+    "title": "Lo que está en meta en la IA",
+    "subtitle": "Modelos, herramientas y técnicas dominantes en el ecosistema de inteligencia artificial.",
+    "categories": {
+      "models": "Models",
+      "tools": "Tools",
+      "technique": "Technique",
+      "coming": "Coming"
+    }
+  }
+}
