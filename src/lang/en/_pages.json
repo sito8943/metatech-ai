@@ -1,5 +1,11 @@
 {
   "home": {
-    "title": "What’s META in AI"
+    "title": "What’s META in AI",
+    "categories": {
+      "models": "Models",
+      "tools": "Tools",
+      "technique": "Technique",
+      "coming": "Coming"
+    }
   }
 }
