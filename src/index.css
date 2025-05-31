@@ -1,0 +1,10 @@
+@import "./css/variables.css";
+
+#root {
+    grid-template-rows: 60px 1fr 60px;
+    @apply bg-dark h-screen w-screen grid;
+}
+
+.animated {
+    @apply transition ease-in-out duration-300;
+}
