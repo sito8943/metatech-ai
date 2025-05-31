@@ -1,5 +1,9 @@
 @import "../css/variables.css";
 
 main {
-    @apply p-20 w-full min-h-screen overflow-auto flex flex-col gap-5
+    @apply md:px-20 xs:px-10 p-5 py-20 w-full min-h-screen overflow-auto flex flex-col gap-5
+}
+
+main h1 {
+    @apply md:text-6xl xs:text-5xl text-4xl text-white font-bold
 }
