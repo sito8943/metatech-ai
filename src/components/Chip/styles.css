@@ -1,5 +1,0 @@
-@import "../../css/variables.css";
-
-.chip {
-    @apply bg-bg-primary hover:bg-hover-primary text-white px-5 py-2 rounded-full;
-}

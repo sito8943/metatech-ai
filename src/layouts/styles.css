@@ -1,5 +1,5 @@
 @import "../css/variables.css";
 
 main {
-    @apply p-20 w-full flex flex-col gap-5
+    @apply p-20 w-full min-h-screen overflow-auto flex flex-col gap-5
 }

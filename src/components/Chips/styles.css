@@ -1,0 +1,5 @@
+@import "../../css/variables.css";
+
+.chip {
+    @apply bg-primary/20 hover:bg-hover-primary hover:text-dark px-5 py-1 rounded-full text-gray-300;
+}
