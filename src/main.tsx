@@ -11,7 +11,9 @@ import {App} from './App.tsx'
 import "./i18n.ts"
 
 // font
-import '@fontsource-variable/inter';
+import '@fontsource/inter/300.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/inter/700.css';
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
