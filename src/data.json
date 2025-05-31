@@ -1,0 +1,37 @@
+{
+  "meta": [
+    {
+      "title": "Modelo",
+      "icon": "model",
+      "name": "GPT-4.5",
+      "description": "El modelo más avanzado de OpenAI hasta 2025, ampliamente usado en empresas e investigación.",
+      "link": "https://openai.com",
+      "tags": [
+        "Tendencia",
+        "Técnico"
+      ]
+    },
+    {
+      "title": "Herramienta",
+      "icon": "tool",
+      "name": "LangChain",
+      "description": "Un framework popular para construir aplicaciones impulsadas por LLM, compatible con RAG, agentes y más.",
+      "link": "https://www.langchain.com",
+      "tags": [
+        "Práctico",
+        "Ecosistema"
+      ]
+    },
+    {
+      "title": "Técnica",
+      "icon": "brain",
+      "name": "RAG (Generación Aumentada por Recuperación)",
+      "description": "Mejora la precisión de los LLM al incorporar contexto desde fuentes externas antes de generar respuestas.",
+      "link": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+      "tags": [
+        "Técnico",
+        "Tendencia"
+      ]
+    }
+  ]
+}
